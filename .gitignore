@@ -17,3 +17,10 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/resources/fomantic-ui/gulpfile.js
+/resources/fomantic-ui/tasks/
+/resources/fomantic-ui/src/
+/resources/fomantic-ui/dist/components/
+/resources/fomantic-ui/dist/themes/basic/
+/resources/fomantic-ui/dist/themes/github/
+/resources/fomantic-ui/dist/themes/material/

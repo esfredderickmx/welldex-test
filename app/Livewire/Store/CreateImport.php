@@ -46,11 +46,11 @@ class CreateImport extends Component {
         Rule::in(['cash', 'credit', 'debit'])
       ],
       'cost' => [
-        Rule::requiredIf($this->surcharge),
+        Rule::requiredIf($this->surcharge === true),
         'max_digits:8'
       ],
       'concept' => [
-        Rule::requiredIf($this->surcharge),
+        Rule::requiredIf($this->surcharge === true),
         'max:50'
       ]
     ];
